@@ -88,6 +88,43 @@ As mentioned above, syscalls are invoked via an interrupt or instruction execute
 Nonetheless, breaking down some simple operations in their syscall components can prove interesting. The remainder of this blog post will illustrate a couple of simple examples using Golang, and demonstrate how the syscalls themselves can be observed by a user.
 
 
+# Command
+
+## Exercise 1:
+  1- The pwd command is mostly used to print the current working directory on your terminal. It is  also one of the most commonly used commands. 
+ Now, your terminal prompt should usually include the entire directory. If it doesn’t, this is a quick command to see which directory you’re in. Another purpose for this command is when creating scripts because it can help us find the directory in which the script was saved. The below pictures are the output with the command.
+    
+<div>
+  <img src="https://github.com/user-attachments/assets/1fc1f1d8-8c86-467e-a47e-acd53274037c">
+</div>
+
+  2- cd command in Linux
+ The cd command is used to navigate between directories. It requires either the full path or   the directory name, depending on your current working directory. If you run this command without any options, it will take you to your home folder. Keep in mind that it can only be executed by users with sudo privileges.
+
+<div>
+  <img src="https://github.com/user-attachments/assets/8f2e40e0-f0a3-44f5-9f24-dea3863dcb9b">
+</div>
+
+3- ls command is commonly used to identify the files and directories in the working directory. This command is one of the many often-used Linux commands that you should know. This command can be used by itself without any arguments and it will provide us the output with all the details about the files and the directories in the current working directory. There is a lot of flexibility offered by this command in terms of displaying data in the output. Check the below image for the output.
+
+<div>
+  <img src="https://github.com/user-attachments/assets/8093949e-768f-4e37-bd4a-80da10e192be">
+</div>
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
